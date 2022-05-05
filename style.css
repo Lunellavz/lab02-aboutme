@@ -1,0 +1,46 @@
+h1 {
+    font-family: monospace;
+    border: dotted;
+    color:rgb(249, 210, 217);
+    font-size: 50pt;
+}
+
+body {
+    font-family: monospace
+    
+}
+
+main {
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: dotted;
+    border-bottom: dotted;
+    border-style: double;
+    text-align: justify;
+
+}
+
+ul {
+    font-size: 25pt;
+    list-style: circle;
+    color: rgb(197, 156, 217);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 5 px;
+    color: rgb(197, 156, 217);
+    font-family: monospace;
+    font-size: 25pt;
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    color: rgb(230, 212, 230);
+}
+ html {
+     background-color: rgb(138, 95, 138)
+ }
