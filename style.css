@@ -1,6 +1,7 @@
 h1 {
     font-family: monospace;
     border: dotted;
+    border-style: 20px dotted;
     color:rgb(249, 210, 217);
     font-size: 50pt;
 }
@@ -41,6 +42,8 @@ footer {
     font-size: smaller;
     color: rgb(230, 212, 230);
 }
+
  html {
      background-color: rgb(138, 95, 138)
  }
+
