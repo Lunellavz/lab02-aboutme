@@ -6,13 +6,13 @@ document.write ("Hello " + userName + ", welcome to my page!");
 let farm = prompt("Do I want a farm?")?.toLowerCase();
 if (farm === "yes" || farm === "y") {
     alert("Correct!");
-} else if (farm === "no" || famr === "n") {
+} else if (farm === "no" || farm === "n") {
     alert("FALSE!! I said it like 3 times...");
 } else {
   alert("(Y)es or (N)o");
 }
 
-let favColor = promtp("Is my favorite color purple?")?.toLowerCase();
+let favColor = prompt("Is my favorite color purple?")?.toLowerCase();
 if (favColor === "yes" || favColor ==="y") {
     alert("Nope I fooled you!"); 
 } else if (favColor === "no" || favColor === "n") {
@@ -34,7 +34,7 @@ if (travel === "yes"|| travel === "y") {
 }
 
 let cook = prompt("Can I cook");
-switch (cook?.toLowercase()) {
+switch (cook ?.toLowercase() ) {
     case "y":
     case "yes":
         alert("Yes, I love to cook");
