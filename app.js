@@ -26,7 +26,7 @@ if (cows === "yes" || cows === "n") {
     alert("Why wouldn't I want those cuties?");
 }
 
-let travel = prompt("Do I only want to stay in Seattle?")?.toLowerCase():
+let travel = prompt("Do I only want to stay in Seattle?")?.toLowerCase();
 if (travel === "yes"|| travel === "y") {
     alert("That sounds miserable");
 } else if (travel === "no" || travel === "n") {
