@@ -34,13 +34,13 @@ if (travel === "yes"|| travel === "y") {
 }
 
 let cook = prompt("Can I cook");
-switch (cook ?.toLowercase() ) {
+switch (cook ?.toLowerCase()) {
     case "y":
     case "yes":
         alert("Yes, I love to cook");
         break;
     case "n":
     case "no":
-        alert("Incorrect, I love to cook") ;
+        alert("Incorrect, I love to cook");
         break;   
 }
