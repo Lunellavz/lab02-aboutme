@@ -22,6 +22,7 @@ console.log(Questions(answer5));
 
 
 
+
 // let userName = prompt("What is your name?");
 // document.write ("Hello " + userName + ", welcome to my page!");
 
@@ -66,3 +67,16 @@ console.log(Questions(answer5));
 //         alert("Incorrect, I love to cook") ;
 //         break;   
 // }
+=======
+let cook = prompt("Can I cook");
+switch (cook ?.toLowerCase()) {
+    case "y":
+    case "yes":
+        alert("Yes, I love to cook");
+        break;
+    case "n":
+    case "no":
+        alert("Incorrect, I love to cook");
+        break;   
+}
+
