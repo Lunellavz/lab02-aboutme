@@ -1,7 +1,6 @@
 h1 {
     font-family: monospace;
     border: dotted;
-    border-style: 20px dotted;
     color:rgb(249, 210, 217);
     font-size: 50pt;
 }
@@ -35,6 +34,20 @@ p {
     color: rgb(197, 156, 217);
     font-family: monospace;
     font-size: 25pt;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 25pt;
+    color: rgb(212, 115, 205);
+
+}
+
+ol li {
+    font-family: monospace;
+    font-size: 25pt;
+    color: rgb(230, 169, 221);
+    
 }
 
 footer {
