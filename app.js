@@ -67,7 +67,7 @@ console.log(Questions(answer5));
 //         alert("Incorrect, I love to cook") ;
 //         break;   
 // }
-=======
+
 let cook = prompt("Can I cook");
 switch (cook ?.toLowerCase()) {
     case "y":
