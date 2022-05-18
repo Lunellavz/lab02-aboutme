@@ -107,9 +107,9 @@
 const tenNames = ["Pizza", "Iced matcha latte", "Rootbeer", "PB cookies"];
 console.log(tenNames);
 
-const Ggames = prompt("Name one of my favorite drinks or foods.");
 
 for (let i = 0; i < 6; i++) {
+    const Ggames = prompt("Name one of my favorite drinks or foods.");
     for (let j = 0; j < tenNames.length; j++) {
         if (Ggames === tenNames[j]) {
             alert("Yes! " + Ggames + " is one of my favorites!");
@@ -119,9 +119,7 @@ for (let i = 0; i < 6; i++) {
         }
         break;
     }
-}
-
-if (Ggames !== tenNames) {
+}if(Ggames !== tenNames) {
     alert("The correct answers are pizza, iced matcha latte, rootbeer, pb cookies!");
 }
 
