@@ -80,29 +80,29 @@
 //         break;   
 // }
 
-// let numberGuess = prompt("How old am I?");
-// console.log(numberGuess);
+let numberGuess = prompt("How old am I?");
+console.log(numberGuess);
 
-// for (let i = 0 ; i < 4; i++) {
+for (let i = 0 ; i < 4; i++) {
 
-//     if (numberGuess > 21) {
-//         alert("Too high");
-//     } 
-//     if(numberGuess < 21) {
-//         alert("Too low");
-//     }
-//     if(numberGuess === '21') {
-//         console.log(typeof numberGuess);
-//         alert("CORRECT I am 21!");
-//         break;
-//     } 
-//     numberGuess = prompt("How old am I?");
-//     console.log(numberGuess); 
-// }
+    if (numberGuess > 21) {
+        alert("Too high");
+    } 
+    if(numberGuess < 21) {
+        alert("Too low");
+    }
+    if(numberGuess === '21') {
+        console.log(typeof numberGuess);
+        alert("CORRECT I am 21!");
+        break;
+    } 
+    numberGuess = prompt("How old am I?");
+    console.log(numberGuess); 
+}
 
-// if (numberGuess > 21 || numberGuess < 21) {
-//     alert("The correct answer is 21");
-// }
+if (numberGuess > 21 || numberGuess < 21) {
+    alert("The correct answer is 21");
+}
 
 const tenNames = ["Pizza", "Iced matcha latte", "Rootbeer", "PB cookies"];
 console.log(tenNames);
